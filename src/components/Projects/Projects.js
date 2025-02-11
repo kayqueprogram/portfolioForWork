@@ -65,17 +65,6 @@ rotas, Home, Blog, Galeria e Sobre, possuindo acessibilidade em Libras."
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ia para o bem social"
-              description="Utiliza 'Processamento de Linguagem Natural' para detectar postagens relacionadas ao suicídio e ideação suicida de usuários no ciberespaço e assim ajudar na prevenção do suicídio."
-              ghLink="https://github.com/kayqueprogram"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
           
         </Row>
       </Container>
