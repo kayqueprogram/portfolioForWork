@@ -19,6 +19,8 @@
 
 Portfólio desenvolvido em React, com foco em design responsivo, interatividade e performance. Utiliza animações com partículas, efeitos visuais modernos e integração com o GitHub. Recursos como geração e visualização de PDF também estão presentes.
 
+![Portfólio](./public/img/portfolio.png)
+
 
 <h2 id="technologies">💻 Tecnologias</h2>
 
