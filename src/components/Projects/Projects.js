@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/img2.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import osgestor from "../../Assets/Projects/OSGESTOR.jpg"
 import editor from "../../Assets/Projects/img1.png";
 import chatify from "../../Assets/Projects/img1.jpeg";
-import suicide from "../../Assets/Projects/suicide.png";
+
 import bitsOfCode from "../../Assets/Projects/img2.jpeg";
 
 function Projects() {
@@ -59,9 +59,18 @@ rotas, Home, Blog, Galeria e Sobre, possuindo acessibilidade em Libras."
               imgPath={leaf}
               isBlog={false}
               title="ABBA LOGISTICS"
-              description="Site desenvolvido com ReactJS e Argon Design, para uma empresa de Logística"
+              description="Site desenvolvido com ReactJS e Argon Design, para uma empresa de Logística. Landing page, apresentação da empresa e gerenciamento de redes sociais"
               ghLink="https://github.com/kayqueprogram/abbalogistcs"
               demoLink="https://abbalogistcs.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={osgestor}
+              isBlog={false}
+              title="FKS LOGISTICS - OS GESTOR"
+              description="Sistema desenvolvido com Next+TS, firebase e TailwindCss. Com foco em gestão de peças, manutenções e preventivas"
             />
           </Col>
 
