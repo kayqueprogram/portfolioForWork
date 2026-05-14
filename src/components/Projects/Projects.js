@@ -8,6 +8,12 @@ import editor from "../../Assets/Projects/img1.png";
 import chatify from "../../Assets/Projects/img1.jpeg";
 import bitsOfCode from "../../Assets/Projects/img2.jpeg";
 import lifeQuest from "../../Assets/Projects/Lifequest.png";
+import uploadIA from "../../Assets/Projects/upload_ia.png";
+import databridge from "../../Assets/Projects/databridge.png";
+import discordBot from "../../Assets/Projects/discord_bot.png";
+import financeManager from "../../Assets/Projects/finance_manager.png";
+import autovagas from "../../Assets/Projects/autovagas.png";
+import safecircle from "../../Assets/Projects/safecircle.png";
 
 function Projects() {
   return (
@@ -21,6 +27,29 @@ function Projects() {
           Explorando soluções robustas e interfaces intuitivas em projetos reais.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card d-flex align-items-stretch mb-4">
+            <ProjectCard
+              imgPath={autovagas}
+              isBlog={false}
+              title="AutoVagas: Automated Job Hunt"
+              description="Sistema de busca automatizada de vagas utilizando Elixir e Phoenix Framework. Utiliza concorrência de alta performance para monitorar plataformas como LinkedIn, Gupy e Indeed, enviando notificações instantâneas via WhatsApp/Telegram para novas oportunidades."
+              ghLink="https://github.com/kayqueprogram/AutoVagas"
+              tags={["Elixir", "Phoenix", "Concurrency", "Web Scraping"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card d-flex align-items-stretch mb-4">
+            <ProjectCard
+              imgPath={safecircle}
+              isBlog={false}
+              title="SafeCircle: Smart Tracking"
+              description="Plataforma avançada de segurança e monitoramento para proteção familiar. Utiliza geolocalização de alta precisão em tempo real, fornecendo alertas instantâneos e um painel de controle intuitivo com estética Glassmorphism para acompanhamento de dependentes."
+              ghLink="https://github.com/kayqueprogram/Safe-Kids"
+              demoLink="https://antisequestro.vercel.app/"
+              tags={["Next.js", "Tailwind CSS", "Geolocation API", "Real-time"]}
+            />
+          </Col>
 
           <Col md={4} className="project-card d-flex align-items-stretch mb-4">
             <ProjectCard
@@ -82,11 +111,55 @@ function Projects() {
 
           <Col md={4} className="project-card d-flex align-items-stretch mb-4">
             <ProjectCard
-              imgPath={lifeQuest} // Troque pelo import da imagem do LifeQuest (ex: lifeQuestImg)
+              imgPath={uploadIA}
+              isBlog={false}
+              title="Upload.ai: IA Video Optimizer"
+              description="Plataforma de inteligência artificial que automatiza a criação de títulos, descrições e transcrições para vídeos do YouTube. Utiliza a API da OpenAI (GPT-3.5/4) e processamento local de áudio para entregar resultados otimizados para SEO."
+              ghLink="https://github.com/kayqueprogram/upload-ai-api"
+              tags={["Next.js", "OpenAI API", "Prisma", "Tailwind"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card d-flex align-items-stretch mb-4">
+            <ProjectCard
+              imgPath={databridge}
+              isBlog={false}
+              title="DataBridge: Cloud Sync"
+              description="Ferramenta de sincronização de dados de alta performance entre Firebase Firestore e bancos de dados MySQL. Desenvolvida em Python com SQLModel para garantir a integridade dos dados e automação de backups em tempo real."
+              ghLink="https://github.com/kayqueprogram/DataBridge-"
+              tags={["Python", "Firebase", "MySQL", "SQLModel"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card d-flex align-items-stretch mb-4">
+            <ProjectCard
+              imgPath={discordBot}
+              isBlog={false}
+              title="Discord Study Bot"
+              description="Um assistente inteligente para servidores de estudo no Discord. Implementa comandos de Pomodoro, organização de cronogramas e integração com APIs de busca, ajudando estudantes a manterem o foco e produtividade."
+              ghLink="https://github.com/kayqueprogram/Discord-Bot-Full-Study"
+              tags={["JavaScript", "Discord.js", "Node.js"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card d-flex align-items-stretch mb-4">
+            <ProjectCard
+              imgPath={financeManager}
+              isBlog={false}
+              title="Finance Manager Pro"
+              description="Sistema de gestão financeira pessoal com visualização de dados dinâmica. Permite o controle rigoroso de despesas e receitas, gerando relatórios gráficos e insights sobre hábitos de consumo para auxiliar na saúde financeira."
+              ghLink="https://github.com/kayqueprogram/Gerenciamento-de-Financas"
+              tags={["Python", "SQLite", "Matplotlib", "SQLModel"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card d-flex align-items-stretch mb-4">
+            <ProjectCard
+              imgPath={lifeQuest}
               isBlog={false}
               title="LifeQuest: Personal Hub"
               description="Plataforma holística de produtividade que integra gestão financeira, organização de tarefas e um sistema de comunidade. Focada em transformar a rotina em uma jornada gamificada, permitindo o acompanhamento de metas pessoais com suporte social."
-              demoLink="https://lifequesthub.vercel.app/" // Adicione o link da demo se houver
+              demoLink="https://lifequesthub.vercel.app/"
               tags={["Next.js", "Firebase", "Context API", "Tailwind"]}
             />
           </Col>
