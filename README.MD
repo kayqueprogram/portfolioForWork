@@ -2,7 +2,7 @@
   PORTFÓLIO - KAYQUE DE JESUS
 </h1>
 
-> Portfólio desenvolvido para meu perfil.
+> Portfólio desenvolvido para meu perfil
 
 <p align="center">
   <a href="#project">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
